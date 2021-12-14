@@ -77,7 +77,7 @@ yt()
 askagain = input("Do you want to start again (y/n): ").lower()
 if askagain == 'y':
     yt()
-    os.systen("cls")
+    os.system("cls")
 else:
     quit()
 
